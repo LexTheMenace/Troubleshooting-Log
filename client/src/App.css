@@ -1,0 +1,26 @@
+body {
+    background-color: #777;
+}
+.container {
+    padding: 0 1rem;
+    margin: auto;
+    align-items: center;
+}
+
+
+.btn:hover {
+    background: #777;
+}
+
+.input {
+    display: 'flex';
+    flex: 5;
+    padding: '8px'
+}
+.btn {
+    display: inline-block;
+    border: none;
+    background: #555;
+    flex: 4;
+    margin-top: 10;
+}

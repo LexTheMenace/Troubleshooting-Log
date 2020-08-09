@@ -1,0 +1,33 @@
+{
+  "name": "troubleshooting-log",
+  "version": "1.0.0",
+  "description": "Log Troubleshooting Efforts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LexTheMenace/Troubleshooting-Log.git"
+  },
+  "author": "Lex Pryor | LexTheMenace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LexTheMenace/Troubleshooting-Log/issues"
+  },
+  "homepage": "https://github.com/LexTheMenace/Troubleshooting-Log#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
